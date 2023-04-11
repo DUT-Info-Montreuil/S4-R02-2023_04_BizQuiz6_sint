@@ -54,9 +54,9 @@ public class StatsQuestionnaireDTO {
 				+"Le questionnaire " + idQuestionnaire + " a été joué : \n"
 				+nbJouer+" fois."
 				+"La question avec le meilleur taux de réussite est : \n"
-				+questionPlus.getLibelleQuestion() + " Avec " + questionPlus.getStatsNbCorrecte() + " bonnes réponses sur " + questionPlus.getStatsNbJouerQuestion()+"\n"
+				+"\t" + questionPlus.getLibelleQuestion() + " Avec " + questionPlus.getStatsNbCorrecte() + " bonne(s) réponse(s) sur " + questionPlus.getStatsNbJouerQuestion()+"\n"
 				+"La question avec le pire taux de réussite est :\n"
-				+ "";
+				+"\t" +questionMoin.getLibelleQuestion() + " Avec " + questionMoin.getStatsNbCorrecte() + " bonne(s) réponse(s) sur " + questionMoin.getStatsNbJouerQuestion();
 	}
 	
 	
