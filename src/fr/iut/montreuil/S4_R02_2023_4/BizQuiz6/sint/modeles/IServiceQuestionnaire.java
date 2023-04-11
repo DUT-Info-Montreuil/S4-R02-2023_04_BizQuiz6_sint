@@ -1,5 +1,7 @@
 package fr.iut.montreuil.S4_R02_2023_4.BizQuiz6.sint.modeles;
 
+import java.util.NoSuchElementException;
+
 import fr.iut.montreuil.R4_S02_2023_4.BizQuiz6_questionnaire_sme.entities.bo.QuestionnaireBO;
 import fr.iut.montreuil.S4_R02_2023_4.BizQuiz6.sint.entities.dto.StatsQuestionnaireDTO;
 
@@ -12,5 +14,5 @@ public interface IServiceQuestionnaire {
 	//QuestionDto questionMoin
 	//prend en parametre un questionnaireBO
 	
-	public StatsQuestionnaireDTO recupererStatsQuestionnaire(QuestionnaireBO questionnaire);
+	public StatsQuestionnaireDTO recupererStatsQuestionnaire(QuestionnaireBO questionnaire)throws NoSuchElementException;
 }
