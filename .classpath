@@ -8,5 +8,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Mockito"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/S4-R02-2023_04_BizQuiz6_questionnaire-sme"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
