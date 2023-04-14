@@ -44,4 +44,12 @@ public class StatistiqueJoueurDTO {
 			
 	}
 
+
+
+
+
+	public JoueurDto getJoueur() {
+		return this.joueur;
+	}
+
 }

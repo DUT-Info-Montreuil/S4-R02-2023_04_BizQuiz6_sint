@@ -26,4 +26,8 @@ public class ServiceQuizJoueurImpl implements IServiceQuizJoueur{
 		return stat;
 	}
 
+	public ServiceJoueurImpl getService() {
+		return service;
+	}
+
 }
